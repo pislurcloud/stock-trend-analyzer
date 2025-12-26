@@ -1,0 +1,76 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.env/
+.env.*
+.venv/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ===============================
+# Jupyter / experiments
+# ===============================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Data artifacts (runtime / cache)
+# ===============================
+data/cache/
+data/raw/
+data/processed/
+
+# ===============================
+# PDFs / Reports / Exports
+# ===============================
+*.pdf
+reports/
+exports/
+
+# ===============================
+# LLM / API related
+# ===============================
+openai_api_key.txt
+openrouter_api_key.txt
+
+# ===============================
+# Temporary test scripts
+# ===============================
+scratch.py
+debug.py
+test_env.py
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
